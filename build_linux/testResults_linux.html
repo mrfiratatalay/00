@@ -1,0 +1,997 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>testResults_linux.xml</title>
+    <style type="text/css">
+        body {
+    background-color: white;
+    padding-bottom: 20em;
+    margin: 0;
+    min-height: 15cm;
+}
+
+h1, h2, h3, h4, h5, h6, h7 {
+    font-family: sans-serif;
+}
+
+h1 {
+    background-color: #007acc;
+    color: white;
+    padding: 3mm;
+    margin-top: 0;
+    margin-bottom: 1mm;
+}
+
+.footer {
+    font-style: italic;
+    font-size: small;
+    text-align: right;
+    padding: 1em;
+}
+
+.testsuite {
+    padding-bottom: 2em;
+    margin-left: 1em;
+}
+
+.proplist {
+    width: 100%;
+    margin-bottom: 2em;
+    border-collapse: collapse;
+    border: 1px solid grey;
+}
+
+.proplist th {
+    background-color: silver;
+    width: 5em;
+    padding: 2px;
+    padding-right: 1em;
+    text-align: left;
+}
+
+.proplist td {
+    padding: 2px;
+}
+
+.index-table {
+    width: 90%;
+    margin-left: 1em;
+}
+
+.index-table td {
+    vertical-align: top;
+    max-width: 200px;
+    word-wrap: break-word;
+}
+
+.failure-index {
+
+}
+
+.toc {
+    margin-bottom: 2em;
+    font-family: monospace;
+}
+
+.stdio, pre {
+    min-height: 1em;
+    background-color: #1e1e1e;
+    color: silver;
+    padding: 0.5em;
+}
+.tdpre {
+    background-color: #1e1e1e;
+}
+
+.test {
+    margin-left: 0.5cm;
+}
+
+.outcome {
+    border-left: 1em;
+    padding: 2px;
+}
+
+.outcome-failed {
+    border-left: 1em solid lightcoral;
+}
+
+.outcome-passed {
+    border-left: 1em solid lightgreen;
+}
+
+.outcome-skipped {
+    border-left: 1em dotted silver;
+}
+
+.stats-table {
+}
+
+.stats-table td {
+    min-width: 4em;
+    text-align: right;
+}
+
+.stats-table .failed {
+    background-color: lightcoral;
+}
+
+.stats-table .passed {
+    background-color: lightgreen;
+}
+
+.matrix-table {
+    table-layout: fixed;
+    border-spacing: 0;
+    width: available;
+    margin-left: 1em;
+}
+
+.matrix-table td {
+    vertical-align: center;
+}
+
+.matrix-table td:last-child {
+    width: 0;
+}
+
+.matrix-table tr:hover {
+    background-color: yellow;
+}
+
+.matrix-axis-name {
+    white-space: nowrap;
+    padding-right: 0.5em;
+    border-left: 1px solid black;
+    border-top: 1px solid black;
+    text-align: right;
+}
+
+.matrix-axis-line {
+    border-left: 1px solid black;
+    width: 0.5em;
+}
+
+.matrix-classname {
+    text-align: left;
+    width: 100%;
+    border-top: 2px solid grey;
+    border-bottom: 1px solid silver;
+}
+
+.matrix-casename {
+    text-align: left;
+    font-weight: normal;
+    font-style: italic;
+    padding-left: 1em;
+    border-bottom: 1px solid silver;
+}
+
+.matrix-result {
+    display: block;
+    width: 1em;
+    text-align: center;
+    padding: 1mm;
+    margin: 0;
+}
+
+.matrix-result-combined {
+    white-space: nowrap;
+    padding-right: 0.2em;
+    text-align: right;
+}
+
+.matrix-result-failed {
+    background-color: lightcoral;
+}
+
+.matrix-result-passed {
+    background-color: lightgreen;
+}
+
+.matrix-result-skipped {
+    background-color: lightyellow;
+}
+
+.matrix-even {
+    background-color: lightgray;
+}
+    </style>
+</head>
+<body>
+    
+<h1>
+    Test Report : testResults_linux.xml
+</h1>
+<a id="toc"></a>
+<table class="index-table">
+    <tr>
+        <td>
+            <ul class="toc">
+            
+                
+                <li>MathUtilityTest.CalculateMean
+                <ul>
+                    
+                    <li><a href="#3ef57e0f-6296-4401-9e7a-9c3901c79466">MathUtilityTest.CalculateMean</a></li>
+                    
+                </ul>
+                </li>
+                
+                <li>MathUtilityTest.CalculateMedianOdd
+                <ul>
+                    
+                    <li><a href="#b3297f20-8b68-47ea-a83e-cf6ebf989cb3">MathUtilityTest.CalculateMedianOdd</a></li>
+                    
+                </ul>
+                </li>
+                
+                <li>MathUtilityTest.CalculateMedianEven
+                <ul>
+                    
+                    <li><a href="#530625ce-c6ad-4991-ba90-5f791549a34c">MathUtilityTest.CalculateMedianEven</a></li>
+                    
+                </ul>
+                </li>
+                
+                <li>MathUtilityTest.CompareDoubleLessTest
+                <ul>
+                    
+                    <li><a href="#6be596fb-c44c-4647-b987-5f7a66c2168a">MathUtilityTest.CompareDoubleLessTest</a></li>
+                    
+                </ul>
+                </li>
+                
+                <li>MathUtilityTest.CompareDoubleGreaterTest
+                <ul>
+                    
+                    <li><a href="#a2e5106b-6ffd-4c97-ba6e-a4560470be1e">MathUtilityTest.CompareDoubleGreaterTest</a></li>
+                    
+                </ul>
+                </li>
+                
+                <li>MathUtilityTest.CompareDoubleEqualTest
+                <ul>
+                    
+                    <li><a href="#cdee149d-d68e-430a-bd1a-64295f070c78">MathUtilityTest.CompareDoubleEqualTest</a></li>
+                    
+                </ul>
+                </li>
+                
+                <li>MathUtilityTest.CalculateMinMaxTest_1
+                <ul>
+                    
+                    <li><a href="#e1de4c03-3561-45ab-8eab-5c52a405fed5">MathUtilityTest.CalculateMinMaxTest_1</a></li>
+                    
+                </ul>
+                </li>
+                
+                <li>MathUtilityTest.CalculateMinMaxTest_2
+                <ul>
+                    
+                    <li><a href="#66294d89-e67f-489a-904d-bbbfd8694800">MathUtilityTest.CalculateMinMaxTest_2</a></li>
+                    
+                </ul>
+                </li>
+                
+                <li>utility_tests
+                <ul>
+                    
+                    <li><a href="#a02dc629-203a-4ca6-afe8-ebf75d0928aa">utility_tests</a></li>
+                    
+                </ul>
+                </li>
+                
+                <li>pomodoroTest.TestAdd
+                <ul>
+                    
+                    <li><a href="#202da3a3-f21d-4180-9463-169cc879053e">pomodoroTest.TestAdd</a></li>
+                    
+                </ul>
+                </li>
+                
+                <li>pomodoroTest.TestSubtract
+                <ul>
+                    
+                    <li><a href="#098d3f44-d3ea-4568-aa3d-8c543c0a1175">pomodoroTest.TestSubtract</a></li>
+                    
+                </ul>
+                </li>
+                
+                <li>pomodoroTest.TestMultiply
+                <ul>
+                    
+                    <li><a href="#3c4752c0-d397-4d1f-af0e-784dd7fe07cf">pomodoroTest.TestMultiply</a></li>
+                    
+                </ul>
+                </li>
+                
+                <li>pomodoroTest.TestDivide
+                <ul>
+                    
+                    <li><a href="#be48864f-f34a-4cd8-84a1-95b9659f5fbb">pomodoroTest.TestDivide</a></li>
+                    
+                </ul>
+                </li>
+                
+                <li>pomodoroTest.TestDivideByZero
+                <ul>
+                    
+                    <li><a href="#45ec6f3a-5102-4247-a3a6-616988f2a5f4">pomodoroTest.TestDivideByZero</a></li>
+                    
+                </ul>
+                </li>
+                
+            
+            </ul>
+        </td>
+        <td class="failure-index">
+            <ul class="toc">
+            
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+                    
+                    
+                    
+                
+            
+            </ul>
+        </td>
+    </tr>
+</table>
+
+
+    <div class="testsuite">
+        <h2>Test Suite: (empty)</h2>
+        <a id="d83c289d-4cfc-4ffa-9168-128171a1dbf5"></a>
+        
+        
+        <h3>Results</h3>
+        <table class="proplist">
+            <tr>
+                <th>Duration</th><td>0.0 sec</td>
+            </tr>
+            <tr>
+                <th>Tests</th><td>14</td>
+            </tr>
+            <tr>
+                <th>Failures</th><td>0</td>
+            </tr>
+        </table>
+
+        <div class="testclasses">
+            <h3>Tests</h3>
+            
+            <div class="testclass">
+                <h4>MathUtilityTest.CalculateMean</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="3ef57e0f-6296-4401-9e7a-9c3901c79466"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>MathUtilityTest.CalculateMean</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.05 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>Note: Google Test filter = MathUtilityTest.CalculateMean
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CalculateMean
+[       OK ] MathUtilityTest.CalculateMean (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+            <div class="testclass">
+                <h4>MathUtilityTest.CalculateMedianOdd</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="b3297f20-8b68-47ea-a83e-cf6ebf989cb3"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>MathUtilityTest.CalculateMedianOdd</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.036 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>Note: Google Test filter = MathUtilityTest.CalculateMedianOdd
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CalculateMedianOdd
+[       OK ] MathUtilityTest.CalculateMedianOdd (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+            <div class="testclass">
+                <h4>MathUtilityTest.CalculateMedianEven</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="530625ce-c6ad-4991-ba90-5f791549a34c"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>MathUtilityTest.CalculateMedianEven</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.052 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>Note: Google Test filter = MathUtilityTest.CalculateMedianEven
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CalculateMedianEven
+[       OK ] MathUtilityTest.CalculateMedianEven (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+            <div class="testclass">
+                <h4>MathUtilityTest.CompareDoubleLessTest</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="6be596fb-c44c-4647-b987-5f7a66c2168a"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>MathUtilityTest.CompareDoubleLessTest</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.024 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>Note: Google Test filter = MathUtilityTest.CompareDoubleLessTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CompareDoubleLessTest
+[       OK ] MathUtilityTest.CompareDoubleLessTest (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+            <div class="testclass">
+                <h4>MathUtilityTest.CompareDoubleGreaterTest</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="a2e5106b-6ffd-4c97-ba6e-a4560470be1e"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>MathUtilityTest.CompareDoubleGreaterTest</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.032 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>Note: Google Test filter = MathUtilityTest.CompareDoubleGreaterTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CompareDoubleGreaterTest
+[       OK ] MathUtilityTest.CompareDoubleGreaterTest (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+            <div class="testclass">
+                <h4>MathUtilityTest.CompareDoubleEqualTest</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="cdee149d-d68e-430a-bd1a-64295f070c78"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>MathUtilityTest.CompareDoubleEqualTest</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.032 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>Note: Google Test filter = MathUtilityTest.CompareDoubleEqualTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CompareDoubleEqualTest
+[       OK ] MathUtilityTest.CompareDoubleEqualTest (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+            <div class="testclass">
+                <h4>MathUtilityTest.CalculateMinMaxTest_1</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="e1de4c03-3561-45ab-8eab-5c52a405fed5"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>MathUtilityTest.CalculateMinMaxTest_1</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.059 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>Note: Google Test filter = MathUtilityTest.CalculateMinMaxTest_1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CalculateMinMaxTest_1
+[       OK ] MathUtilityTest.CalculateMinMaxTest_1 (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+            <div class="testclass">
+                <h4>MathUtilityTest.CalculateMinMaxTest_2</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="66294d89-e67f-489a-904d-bbbfd8694800"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>MathUtilityTest.CalculateMinMaxTest_2</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.029 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>Note: Google Test filter = MathUtilityTest.CalculateMinMaxTest_2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CalculateMinMaxTest_2
+[       OK ] MathUtilityTest.CalculateMinMaxTest_2 (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+            <div class="testclass">
+                <h4>utility_tests</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="a02dc629-203a-4ca6-afe8-ebf75d0928aa"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>utility_tests</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.03 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from MathUtilityTest
+[ RUN      ] MathUtilityTest.CalculateMean
+[       OK ] MathUtilityTest.CalculateMean (0 ms)
+[ RUN      ] MathUtilityTest.CalculateMedianOdd
+[       OK ] MathUtilityTest.CalculateMedianOdd (0 ms)
+[ RUN      ] MathUtilityTest.CalculateMedianEven
+[       OK ] MathUtilityTest.CalculateMedianEven (0 ms)
+[ RUN      ] MathUtilityTest.CompareDoubleLessTest
+[       OK ] MathUtilityTest.CompareDoubleLessTest (0 ms)
+[ RUN      ] MathUtilityTest.CompareDoubleGreaterTest
+[       OK ] MathUtilityTest.CompareDoubleGreaterTest (0 ms)
+[ RUN      ] MathUtilityTest.CompareDoubleEqualTest
+[       OK ] MathUtilityTest.CompareDoubleEqualTest (0 ms)
+[ RUN      ] MathUtilityTest.CalculateMinMaxTest_1
+[       OK ] MathUtilityTest.CalculateMinMaxTest_1 (0 ms)
+[ RUN      ] MathUtilityTest.CalculateMinMaxTest_2
+[       OK ] MathUtilityTest.CalculateMinMaxTest_2 (0 ms)
+[----------] 8 tests from MathUtili...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+            <div class="testclass">
+                <h4>pomodoroTest.TestAdd</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="202da3a3-f21d-4180-9463-169cc879053e"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>pomodoroTest.TestAdd</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.067 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>Note: Google Test filter = pomodoroTest.TestAdd
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from pomodoroTest
+[ RUN      ] pomodoroTest.TestAdd
+[       OK ] pomodoroTest.TestAdd (0 ms)
+[----------] 1 test from pomodoroTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+            <div class="testclass">
+                <h4>pomodoroTest.TestSubtract</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="098d3f44-d3ea-4568-aa3d-8c543c0a1175"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>pomodoroTest.TestSubtract</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.034 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>Note: Google Test filter = pomodoroTest.TestSubtract
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from pomodoroTest
+[ RUN      ] pomodoroTest.TestSubtract
+[       OK ] pomodoroTest.TestSubtract (0 ms)
+[----------] 1 test from pomodoroTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+            <div class="testclass">
+                <h4>pomodoroTest.TestMultiply</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="3c4752c0-d397-4d1f-af0e-784dd7fe07cf"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>pomodoroTest.TestMultiply</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.033 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>Note: Google Test filter = pomodoroTest.TestMultiply
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from pomodoroTest
+[ RUN      ] pomodoroTest.TestMultiply
+[       OK ] pomodoroTest.TestMultiply (0 ms)
+[----------] 1 test from pomodoroTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+            <div class="testclass">
+                <h4>pomodoroTest.TestDivide</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="be48864f-f34a-4cd8-84a1-95b9659f5fbb"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>pomodoroTest.TestDivide</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.04 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>Note: Google Test filter = pomodoroTest.TestDivide
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from pomodoroTest
+[ RUN      ] pomodoroTest.TestDivide
+[       OK ] pomodoroTest.TestDivide (0 ms)
+[----------] 1 test from pomodoroTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+            <div class="testclass">
+                <h4>pomodoroTest.TestDivideByZero</h4>
+                <div class="testcases">
+                
+                    <div class="test outcome outcome-passed">
+                        <a id="45ec6f3a-5102-4247-a3a6-616988f2a5f4"></a>
+                        <table class="proplist">
+                            <tr><th>Test case:</th><td><b>pomodoroTest.TestDivideByZero</b></td></tr>
+                            <tr><th>Outcome:</th><td>Passed</td></tr>
+                            <tr><th>Duration:</th><td>0.034 sec</td></tr>
+                        
+                        
+                        </table>
+
+                        
+                        
+
+                        
+                        
+                        <div class="stdout"><i>Stdout</i><br>
+                            <pre>Note: Google Test filter = pomodoroTest.TestDivideByZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from pomodoroTest
+[ RUN      ] pomodoroTest.TestDivideByZero
+[       OK ] pomodoroTest.TestDivideByZero (0 ms)
+[----------] 1 test from pomodoroTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</pre>
+                        </div>
+                        
+                        
+                    </div>
+                
+                </div>
+            </div>
+            
+        </div>
+    </div>
+    
+
+
+
+<p class="footer">
+    Generated by junit2html
+</p>
+</body>
+</html>

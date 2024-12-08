@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='UTF-8' standalone='no'?>
+<doxygen xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="compound.xsd" version="1.9.7" xml:lang="en-US">
+  <compounddef id="dir_f6154214b2146273d19620ddc939c281" kind="dir">
+    <compoundname>src/pomodoroapp/src</compoundname>
+    <innerfile refid="pomodoroapp_8cpp">pomodoroapp.cpp</innerfile>
+    <briefdescription>
+    </briefdescription>
+    <detaileddescription>
+    </detaileddescription>
+    <location file="src/pomodoroapp/src/"/>
+  </compounddef>
+</doxygen>

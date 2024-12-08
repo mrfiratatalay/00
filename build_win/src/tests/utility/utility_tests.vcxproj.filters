@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="17.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <ClCompile Include="C:\Users\FIRAT\Desktop\00\00\src\tests\utility\utility_test.cpp">
+      <Filter>src</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="C:\Users\FIRAT\Desktop\00\00\src\tests\utility\CMakeLists.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <Filter Include="src">
+      <UniqueIdentifier>{188E2224-7FDE-3468-A28D-827773F088C4}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+</Project>

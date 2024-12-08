@@ -1,0 +1,5 @@
+if(EXISTS "C:/Users/FIRAT/Desktop/00/00/build_win/src/tests/pomodoro/pomodoro_tests[1]_tests.cmake")
+  include("C:/Users/FIRAT/Desktop/00/00/build_win/src/tests/pomodoro/pomodoro_tests[1]_tests.cmake")
+else()
+  add_test(pomodoro_tests_NOT_BUILT pomodoro_tests_NOT_BUILT)
+endif()

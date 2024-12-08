@@ -1,0 +1,217 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="(empty)"
+	tests="14"
+	failures="0"
+	disabled="0"
+	skipped="0"
+	hostname=""
+	time="0"
+	timestamp="2024-12-08T19:21:45"
+	>
+	<testcase name="MathUtilityTest.CalculateMean" classname="MathUtilityTest.CalculateMean" time="0.0504328" status="run">
+		<system-out>Note: Google Test filter = MathUtilityTest.CalculateMean
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CalculateMean
+[       OK ] MathUtilityTest.CalculateMean (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="MathUtilityTest.CalculateMedianOdd" classname="MathUtilityTest.CalculateMedianOdd" time="0.0361578" status="run">
+		<system-out>Note: Google Test filter = MathUtilityTest.CalculateMedianOdd
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CalculateMedianOdd
+[       OK ] MathUtilityTest.CalculateMedianOdd (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="MathUtilityTest.CalculateMedianEven" classname="MathUtilityTest.CalculateMedianEven" time="0.0524303" status="run">
+		<system-out>Note: Google Test filter = MathUtilityTest.CalculateMedianEven
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CalculateMedianEven
+[       OK ] MathUtilityTest.CalculateMedianEven (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="MathUtilityTest.CompareDoubleLessTest" classname="MathUtilityTest.CompareDoubleLessTest" time="0.0240467" status="run">
+		<system-out>Note: Google Test filter = MathUtilityTest.CompareDoubleLessTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CompareDoubleLessTest
+[       OK ] MathUtilityTest.CompareDoubleLessTest (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="MathUtilityTest.CompareDoubleGreaterTest" classname="MathUtilityTest.CompareDoubleGreaterTest" time="0.0319563" status="run">
+		<system-out>Note: Google Test filter = MathUtilityTest.CompareDoubleGreaterTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CompareDoubleGreaterTest
+[       OK ] MathUtilityTest.CompareDoubleGreaterTest (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="MathUtilityTest.CompareDoubleEqualTest" classname="MathUtilityTest.CompareDoubleEqualTest" time="0.0319099" status="run">
+		<system-out>Note: Google Test filter = MathUtilityTest.CompareDoubleEqualTest
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CompareDoubleEqualTest
+[       OK ] MathUtilityTest.CompareDoubleEqualTest (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="MathUtilityTest.CalculateMinMaxTest_1" classname="MathUtilityTest.CalculateMinMaxTest_1" time="0.058868" status="run">
+		<system-out>Note: Google Test filter = MathUtilityTest.CalculateMinMaxTest_1
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CalculateMinMaxTest_1
+[       OK ] MathUtilityTest.CalculateMinMaxTest_1 (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="MathUtilityTest.CalculateMinMaxTest_2" classname="MathUtilityTest.CalculateMinMaxTest_2" time="0.028533" status="run">
+		<system-out>Note: Google Test filter = MathUtilityTest.CalculateMinMaxTest_2
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from MathUtilityTest
+[ RUN      ] MathUtilityTest.CalculateMinMaxTest_2
+[       OK ] MathUtilityTest.CalculateMinMaxTest_2 (0 ms)
+[----------] 1 test from MathUtilityTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="utility_tests" classname="utility_tests" time="0.0298497" status="run">
+		<system-out>[==========] Running 8 tests from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 8 tests from MathUtilityTest
+[ RUN      ] MathUtilityTest.CalculateMean
+[       OK ] MathUtilityTest.CalculateMean (0 ms)
+[ RUN      ] MathUtilityTest.CalculateMedianOdd
+[       OK ] MathUtilityTest.CalculateMedianOdd (0 ms)
+[ RUN      ] MathUtilityTest.CalculateMedianEven
+[       OK ] MathUtilityTest.CalculateMedianEven (0 ms)
+[ RUN      ] MathUtilityTest.CompareDoubleLessTest
+[       OK ] MathUtilityTest.CompareDoubleLessTest (0 ms)
+[ RUN      ] MathUtilityTest.CompareDoubleGreaterTest
+[       OK ] MathUtilityTest.CompareDoubleGreaterTest (0 ms)
+[ RUN      ] MathUtilityTest.CompareDoubleEqualTest
+[       OK ] MathUtilityTest.CompareDoubleEqualTest (0 ms)
+[ RUN      ] MathUtilityTest.CalculateMinMaxTest_1
+[       OK ] MathUtilityTest.CalculateMinMaxTest_1 (0 ms)
+[ RUN      ] MathUtilityTest.CalculateMinMaxTest_2
+[       OK ] MathUtilityTest.CalculateMinMaxTest_2 (0 ms)
+[----------] 8 tests from MathUtili...
+The rest of the test output was removed since it exceeds the threshold of 1024 bytes.
+</system-out>
+	</testcase>
+	<testcase name="pomodoroTest.TestAdd" classname="pomodoroTest.TestAdd" time="0.0666813" status="run">
+		<system-out>Note: Google Test filter = pomodoroTest.TestAdd
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from pomodoroTest
+[ RUN      ] pomodoroTest.TestAdd
+[       OK ] pomodoroTest.TestAdd (0 ms)
+[----------] 1 test from pomodoroTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="pomodoroTest.TestSubtract" classname="pomodoroTest.TestSubtract" time="0.0343772" status="run">
+		<system-out>Note: Google Test filter = pomodoroTest.TestSubtract
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from pomodoroTest
+[ RUN      ] pomodoroTest.TestSubtract
+[       OK ] pomodoroTest.TestSubtract (0 ms)
+[----------] 1 test from pomodoroTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="pomodoroTest.TestMultiply" classname="pomodoroTest.TestMultiply" time="0.0331645" status="run">
+		<system-out>Note: Google Test filter = pomodoroTest.TestMultiply
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from pomodoroTest
+[ RUN      ] pomodoroTest.TestMultiply
+[       OK ] pomodoroTest.TestMultiply (0 ms)
+[----------] 1 test from pomodoroTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="pomodoroTest.TestDivide" classname="pomodoroTest.TestDivide" time="0.0401786" status="run">
+		<system-out>Note: Google Test filter = pomodoroTest.TestDivide
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from pomodoroTest
+[ RUN      ] pomodoroTest.TestDivide
+[       OK ] pomodoroTest.TestDivide (0 ms)
+[----------] 1 test from pomodoroTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+	<testcase name="pomodoroTest.TestDivideByZero" classname="pomodoroTest.TestDivideByZero" time="0.0338526" status="run">
+		<system-out>Note: Google Test filter = pomodoroTest.TestDivideByZero
+[==========] Running 1 test from 1 test suite.
+[----------] Global test environment set-up.
+[----------] 1 test from pomodoroTest
+[ RUN      ] pomodoroTest.TestDivideByZero
+[       OK ] pomodoroTest.TestDivideByZero (0 ms)
+[----------] 1 test from pomodoroTest (0 ms total)
+
+[----------] Global test environment tear-down
+[==========] 1 test from 1 test suite ran. (0 ms total)
+[  PASSED  ] 1 test.
+</system-out>
+	</testcase>
+</testsuite>
